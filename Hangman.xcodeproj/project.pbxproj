@@ -7,15 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B320743E1C1CEE2A006D661A /* LetterSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B320743D1C1CEE2A006D661A /* LetterSelectionViewController.m */; };
+		B32A81AC1C12CCB10049BE74 /* GameScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B32A81AB1C12CCB10049BE74 /* GameScreenViewController.m */; };
+		B32A81AE1C12CFB70049BE74 /* DK Cool Crayon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B32A81AD1C12CFB70049BE74 /* DK Cool Crayon.ttf */; };
+		B33092951C0EA82900624895 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B33092941C0EA82900624895 /* CoreText.framework */; };
+		B34680CD1C0E96370060F6AE /* Action_Man.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3BC4B7D1C03D7220083292E /* Action_Man.ttf */; };
+		B35896031C13B3AB008B08AE /* Wordlist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B35896011C13B3AB008B08AE /* Wordlist.cpp */; };
+		B35896051C13B786008B08AE /* wordlist.txt in Resources */ = {isa = PBXBuildFile; fileRef = B35896041C13B786008B08AE /* wordlist.txt */; };
+		B35896081C1415E6008B08AE /* GamePacket.m in Sources */ = {isa = PBXBuildFile; fileRef = B35896071C1415E6008B08AE /* GamePacket.m */; };
+		B366E44F1C0BF1C2004516E9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B366E44E1C0BF1C2004516E9 /* UIKit.framework */; };
+		B366E4511C0BF1CA004516E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B366E4501C0BF1CA004516E9 /* Foundation.framework */; };
+		B366E4531C0BF1D2004516E9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B366E4521C0BF1D2004516E9 /* CoreGraphics.framework */; };
+		B3A0C9351C1F9FCC009FF490 /* GamePreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A0C9341C1F9FCC009FF490 /* GamePreferencesViewController.m */; };
 		B3BC4B681C03D2BC0083292E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3BC4B671C03D2BC0083292E /* main.m */; };
 		B3BC4B6B1C03D2BC0083292E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3BC4B6A1C03D2BC0083292E /* AppDelegate.m */; };
 		B3BC4B6E1C03D2BC0083292E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3BC4B6D1C03D2BC0083292E /* ViewController.m */; };
 		B3BC4B711C03D2BC0083292E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3BC4B6F1C03D2BC0083292E /* Main.storyboard */; };
 		B3BC4B731C03D2BC0083292E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3BC4B721C03D2BC0083292E /* Assets.xcassets */; };
-		B3BC4B761C03D2BC0083292E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3BC4B741C03D2BC0083292E /* LaunchScreen.storyboard */; };
+		B3BC4B801C03EADC0083292E /* HostGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3BC4B7F1C03EADC0083292E /* HostGameViewController.m */; };
+		B3BC4B831C03F7CD0083292E /* JoinGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3BC4B821C03F7CD0083292E /* JoinGameViewController.m */; };
+		B3BC4B851C03F8390083292E /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3BC4B841C03F8390083292E /* GameKit.framework */; };
+		B3BC4B881C03F8A20083292E /* MatchmakingServer.m in Sources */ = {isa = PBXBuildFile; fileRef = B3BC4B871C03F8A20083292E /* MatchmakingServer.m */; };
+		B3BC4B8B1C03FB840083292E /* MatchmakingClient.m in Sources */ = {isa = PBXBuildFile; fileRef = B3BC4B8A1C03FB840083292E /* MatchmakingClient.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B320743C1C1CEE2A006D661A /* LetterSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LetterSelectionViewController.h; sourceTree = "<group>"; };
+		B320743D1C1CEE2A006D661A /* LetterSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LetterSelectionViewController.m; sourceTree = "<group>"; };
+		B32A81AA1C12CCB10049BE74 /* GameScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameScreenViewController.h; sourceTree = "<group>"; };
+		B32A81AB1C12CCB10049BE74 /* GameScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameScreenViewController.m; sourceTree = "<group>"; };
+		B32A81AD1C12CFB70049BE74 /* DK Cool Crayon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "DK Cool Crayon.ttf"; path = "../../../../../Downloads/david-kerkhoff_dk-cool-crayon/DK Cool Crayon.ttf"; sourceTree = "<group>"; };
+		B33092941C0EA82900624895 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		B35896011C13B3AB008B08AE /* Wordlist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Wordlist.cpp; sourceTree = "<group>"; };
+		B35896021C13B3AB008B08AE /* Wordlist.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Wordlist.hpp; sourceTree = "<group>"; };
+		B35896041C13B786008B08AE /* wordlist.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = wordlist.txt; sourceTree = "<group>"; };
+		B35896061C1415E6008B08AE /* GamePacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamePacket.h; sourceTree = "<group>"; };
+		B35896071C1415E6008B08AE /* GamePacket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamePacket.m; sourceTree = "<group>"; };
+		B366E44E1C0BF1C2004516E9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B366E4501C0BF1CA004516E9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B366E4521C0BF1D2004516E9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B3A0C9331C1F9FCC009FF490 /* GamePreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamePreferencesViewController.h; sourceTree = "<group>"; };
+		B3A0C9341C1F9FCC009FF490 /* GamePreferencesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamePreferencesViewController.m; sourceTree = "<group>"; };
 		B3BC4B631C03D2BC0083292E /* Hangman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hangman.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3BC4B671C03D2BC0083292E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B3BC4B691C03D2BC0083292E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -24,8 +56,17 @@
 		B3BC4B6D1C03D2BC0083292E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B3BC4B701C03D2BC0083292E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B3BC4B721C03D2BC0083292E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B3BC4B751C03D2BC0083292E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B3BC4B771C03D2BC0083292E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3BC4B7D1C03D7220083292E /* Action_Man.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Action_Man.ttf; sourceTree = "<group>"; };
+		B3BC4B7E1C03EADC0083292E /* HostGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HostGameViewController.h; sourceTree = "<group>"; };
+		B3BC4B7F1C03EADC0083292E /* HostGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HostGameViewController.m; sourceTree = "<group>"; };
+		B3BC4B811C03F7CD0083292E /* JoinGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JoinGameViewController.h; sourceTree = "<group>"; };
+		B3BC4B821C03F7CD0083292E /* JoinGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JoinGameViewController.m; sourceTree = "<group>"; };
+		B3BC4B841C03F8390083292E /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		B3BC4B861C03F8A20083292E /* MatchmakingServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchmakingServer.h; sourceTree = "<group>"; };
+		B3BC4B871C03F8A20083292E /* MatchmakingServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchmakingServer.m; sourceTree = "<group>"; };
+		B3BC4B891C03FB840083292E /* MatchmakingClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchmakingClient.h; sourceTree = "<group>"; };
+		B3BC4B8A1C03FB840083292E /* MatchmakingClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchmakingClient.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +74,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B33092951C0EA82900624895 /* CoreText.framework in Frameworks */,
+				B366E4531C0BF1D2004516E9 /* CoreGraphics.framework in Frameworks */,
+				B366E4511C0BF1CA004516E9 /* Foundation.framework in Frameworks */,
+				B366E44F1C0BF1C2004516E9 /* UIKit.framework in Frameworks */,
+				B3BC4B851C03F8390083292E /* GameKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +88,11 @@
 		B3BC4B5A1C03D2BC0083292E = {
 			isa = PBXGroup;
 			children = (
+				B33092941C0EA82900624895 /* CoreText.framework */,
+				B366E4521C0BF1D2004516E9 /* CoreGraphics.framework */,
+				B366E4501C0BF1CA004516E9 /* Foundation.framework */,
+				B366E44E1C0BF1C2004516E9 /* UIKit.framework */,
+				B3BC4B841C03F8390083292E /* GameKit.framework */,
 				B3BC4B651C03D2BC0083292E /* Hangman */,
 				B3BC4B641C03D2BC0083292E /* Products */,
 			);
@@ -63,9 +114,26 @@
 				B3BC4B6C1C03D2BC0083292E /* ViewController.h */,
 				B3BC4B6D1C03D2BC0083292E /* ViewController.m */,
 				B3BC4B6F1C03D2BC0083292E /* Main.storyboard */,
+				B32A81AA1C12CCB10049BE74 /* GameScreenViewController.h */,
+				B32A81AB1C12CCB10049BE74 /* GameScreenViewController.m */,
+				B320743C1C1CEE2A006D661A /* LetterSelectionViewController.h */,
+				B320743D1C1CEE2A006D661A /* LetterSelectionViewController.m */,
+				B3A0C9331C1F9FCC009FF490 /* GamePreferencesViewController.h */,
+				B3A0C9341C1F9FCC009FF490 /* GamePreferencesViewController.m */,
+				B3BC4B7E1C03EADC0083292E /* HostGameViewController.h */,
+				B3BC4B7F1C03EADC0083292E /* HostGameViewController.m */,
+				B3BC4B811C03F7CD0083292E /* JoinGameViewController.h */,
+				B3BC4B821C03F7CD0083292E /* JoinGameViewController.m */,
 				B3BC4B721C03D2BC0083292E /* Assets.xcassets */,
-				B3BC4B741C03D2BC0083292E /* LaunchScreen.storyboard */,
 				B3BC4B771C03D2BC0083292E /* Info.plist */,
+				B35896021C13B3AB008B08AE /* Wordlist.hpp */,
+				B35896011C13B3AB008B08AE /* Wordlist.cpp */,
+				B3BC4B861C03F8A20083292E /* MatchmakingServer.h */,
+				B3BC4B871C03F8A20083292E /* MatchmakingServer.m */,
+				B3BC4B891C03FB840083292E /* MatchmakingClient.h */,
+				B3BC4B8A1C03FB840083292E /* MatchmakingClient.m */,
+				B35896061C1415E6008B08AE /* GamePacket.h */,
+				B35896071C1415E6008B08AE /* GamePacket.m */,
 				B3BC4B661C03D2BC0083292E /* Supporting Files */,
 			);
 			path = Hangman;
@@ -74,6 +142,9 @@
 		B3BC4B661C03D2BC0083292E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B35896041C13B786008B08AE /* wordlist.txt */,
+				B32A81AD1C12CFB70049BE74 /* DK Cool Crayon.ttf */,
+				B3BC4B7D1C03D7220083292E /* Action_Man.ttf */,
 				B3BC4B671C03D2BC0083292E /* main.m */,
 			);
 			name = "Supporting Files";
@@ -137,8 +208,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3BC4B761C03D2BC0083292E /* LaunchScreen.storyboard in Resources */,
 				B3BC4B731C03D2BC0083292E /* Assets.xcassets in Resources */,
+				B34680CD1C0E96370060F6AE /* Action_Man.ttf in Resources */,
+				B32A81AE1C12CFB70049BE74 /* DK Cool Crayon.ttf in Resources */,
+				B35896051C13B786008B08AE /* wordlist.txt in Resources */,
 				B3BC4B711C03D2BC0083292E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,7 +224,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3BC4B6E1C03D2BC0083292E /* ViewController.m in Sources */,
+				B35896031C13B3AB008B08AE /* Wordlist.cpp in Sources */,
 				B3BC4B6B1C03D2BC0083292E /* AppDelegate.m in Sources */,
+				B3BC4B831C03F7CD0083292E /* JoinGameViewController.m in Sources */,
+				B3BC4B881C03F8A20083292E /* MatchmakingServer.m in Sources */,
+				B3A0C9351C1F9FCC009FF490 /* GamePreferencesViewController.m in Sources */,
+				B3BC4B801C03EADC0083292E /* HostGameViewController.m in Sources */,
+				B3BC4B8B1C03FB840083292E /* MatchmakingClient.m in Sources */,
+				B35896081C1415E6008B08AE /* GamePacket.m in Sources */,
+				B320743E1C1CEE2A006D661A /* LetterSelectionViewController.m in Sources */,
+				B32A81AC1C12CCB10049BE74 /* GameScreenViewController.m in Sources */,
 				B3BC4B681C03D2BC0083292E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -165,14 +247,6 @@
 				B3BC4B701C03D2BC0083292E /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B3BC4B741C03D2BC0083292E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B3BC4B751C03D2BC0083292E /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -264,7 +338,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 				INFOPLIST_FILE = Hangman/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.firebolt.Hangman;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -275,7 +352,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 				INFOPLIST_FILE = Hangman/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.firebolt.Hangman;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -301,6 +381,7 @@
 				B3BC4B7C1C03D2BC0083292E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

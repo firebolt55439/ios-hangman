@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <GameKit/GameKit.h>
 #import "AppDelegate.h"
 
 int main(int argc, char * argv[]) {
